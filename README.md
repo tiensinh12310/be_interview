@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Create .env look like example.env
+
 ## Installation
 
 ```bash
@@ -36,38 +38,23 @@ $ yarn install
 
 ```bash
 # development
-$ yarn run start
+$ yarn start:dev
 
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
 ```
 
-## Test
+## Seed database Room and Customer (create 10 customer and 10 room)
 
 ```bash
-# unit tests
-$ yarn run test
+# seed Database
+$ yarn db:seed
 
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
 
-## Support
+## Swagger http://localhost:3000/api/#/
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+# Test api show all room by customerId and date
 
-## Stay in touch
+# Test api booking room number of day, and handle error
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+```
